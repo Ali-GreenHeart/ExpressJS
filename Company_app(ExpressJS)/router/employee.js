@@ -2,7 +2,7 @@ import { Router } from "express";
 import EmployeeModel from "../model/employee.js";
 
 const r = Router()
-
+// A: 
 r.get('/', async (req, res) => {
     const AllData = await EmployeeModel.find()
     res.send(AllData)
