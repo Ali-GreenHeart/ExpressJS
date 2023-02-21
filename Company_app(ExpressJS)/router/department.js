@@ -1,6 +1,6 @@
 import { Router } from "express";
 import DepartmentModel from "../model/department.js";
-
+// A: done ✅
 const r = Router()
 
 r.get('/', async (req, res) => {
